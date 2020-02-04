@@ -1,0 +1,417 @@
+  id  |                                  title                                   |  yr  | score | votes | director_id 
+------+--------------------------------------------------------------------------+------+-------+-------+-------------
+    1 | Star Wars                                                                | 1977 |   8.8 | 53567 |         360
+    2 | Shawshank Redemption, The                                                | 1994 |     9 | 44974 |        1040
+    3 | Pulp Fiction                                                             | 1994 |   8.6 | 43993 |         444
+    4 | Titanic                                                                  | 1997 |   7.2 | 43371 |         198
+    5 | Star Wars: Episode V - The Empire Strikes Back                           | 1980 |   8.6 | 39446 |         651
+    6 | Usual Suspects, The                                                      | 1995 |   8.7 | 35027 |         639
+    7 | Schindler's List                                                         | 1993 |   8.8 | 34251 |          18
+    8 | Saving Private Ryan                                                      | 1998 |   8.5 | 34113 |          18
+    9 | Braveheart                                                               | 1995 |   8.3 | 32870 |          22
+   10 | American Beauty                                                          | 1999 |   8.8 | 32547 |        2542
+   11 | Raiders of the Lost Ark                                                  | 1981 |   8.6 | 31750 |          18
+   12 | Godfather, The                                                           | 1972 |     9 | 31225 |          28
+   13 | Star Wars: Episode VI - Return of the Jedi                               | 1983 |     8 | 30178 |        1020
+   14 | Blade Runner                                                             | 1982 |   8.3 | 29877 |         110
+   15 | Silence of the Lambs, The                                                | 1991 |   8.5 | 29582 |         281
+   16 | Forrest Gump                                                             | 1994 |   7.8 | 29400 |          67
+   17 | Star Wars: Episode I - The Phantom Menace                                | 1999 |   7.3 | 28641 |         360
+   18 | Sixth Sense, The                                                         | 1999 |   8.5 | 27626 |         966
+   19 | Independence Day                                                         | 1996 |     6 | 26259 |         290
+   20 | Terminator 2: Judgment Day                                               | 1991 |   7.9 | 25767 |         198
+   21 | Se7en                                                                    | 1995 |   8.1 | 25158 |         414
+   22 | Fargo                                                                    | 1996 |   8.2 | 25044 |         111
+   23 | 2001: A Space Odyssey                                                    | 1968 |   8.3 | 24536 |          82
+   24 | Aliens                                                                   | 1986 |   8.2 | 23965 |         198
+   25 | Truman Show, The                                                         | 1998 |   7.8 | 23665 |          86
+   26 | Back to the Future                                                       | 1985 |   7.8 | 23306 |          67
+   27 | Casablanca                                                               | 1942 |   8.8 | 23283 |         675
+   28 | One Flew Over the Cuckoo's Nest                                          | 1975 |   8.7 | 22868 |         408
+   29 | Good Will Hunting                                                        | 1997 |   7.9 | 22734 |         271
+   30 | Fifth Element, The                                                       | 1997 |     7 | 22365 |         389
+   31 | Twelve Monkeys                                                           | 1995 |   7.8 | 22342 |          59
+   32 | Gladiator                                                                | 2000 |   8.3 | 21955 |         110
+   33 | Fight Club                                                               | 1999 |   8.5 | 21391 |         414
+   34 | Clockwork Orange, A                                                      | 1971 |   8.2 | 21216 |          82
+   35 | Alien                                                                    | 1979 |   8.2 | 20998 |         110
+   36 | Princess Bride, The                                                      | 1987 |   8.2 | 20931 |          37
+   37 | Indiana Jones and the Last Crusade                                       | 1989 |   7.8 | 20897 |          18
+   38 | Fugitive, The                                                            | 1993 |   7.8 | 20843 |         291
+   39 | Reservoir Dogs                                                           | 1992 |   8.2 | 20343 |         444
+   40 | Citizen Kane                                                             | 1941 |   8.8 | 20269 |         253
+   41 | Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb     | 1964 |   8.7 | 20034 |          82
+   42 | Die Hard                                                                 | 1988 |   7.9 | 19929 |         196
+   43 | Goodfellas                                                               | 1990 |   8.5 | 19430 |          78
+   44 | Scream                                                                   | 1996 |   7.2 | 19350 |         133
+   45 | Apocalypse Now                                                           | 1979 |   8.3 | 19335 |          28
+   46 | Terminator, The                                                          | 1984 |   7.8 | 18995 |         198
+   47 | As Good As It Gets                                                       | 1997 |   7.8 | 18856 |         574
+   48 | Dead Poets Society                                                       | 1989 |   7.7 | 18769 |          86
+   49 | Monty Python and the Holy Grail                                          | 1975 |   8.3 | 18640 |          59
+   50 | Trainspotting                                                            | 1996 |   7.8 | 18428 |         597
+   51 | Rock, The                                                                | 1996 |     7 | 18013 |         678
+   52 | Shakespeare in Love                                                      | 1998 |   7.9 | 17918 |        1011
+   53 | Apollo 13                                                                | 1995 |   7.6 | 17797 |          21
+   54 | Psycho                                                                   | 1960 |   8.6 | 17734 |          11
+   55 | Contact                                                                  | 1997 |   7.6 | 17390 |          67
+   56 | There's Something About Mary                                             | 1998 |   7.3 | 17352 |        2459
+   57 | Toy Story                                                                | 1995 |   7.9 | 16971 |        1044
+   58 | Armageddon                                                               | 1998 |   5.8 | 16581 |         678
+   59 | Blair Witch Project, The                                                 | 1999 |   6.6 | 16204 |        2248
+   60 | Rain Man                                                                 | 1988 |   7.8 | 15933 |          38
+   61 | Godfather: Part II, The                                                  | 1974 |   8.8 | 15487 |          28
+   62 | Face/Off                                                                 | 1997 |   7.2 | 14744 |         204
+   63 | Shining, The                                                             | 1980 |   8.1 | 14653 |          82
+   64 | Amadeus                                                                  | 1984 |   8.2 | 14351 |         408
+   65 | Taxi Driver                                                              | 1976 |   8.4 | 14090 |          78
+   66 | E.T. the Extra-Terrestrial                                               | 1982 |   7.7 | 14062 |          18
+   67 | Blues Brothers, The                                                      | 1980 |   7.5 | 13979 |          62
+   68 | Star Trek: First Contact                                                 | 1996 |   7.2 | 13948 |         500
+   69 | Full Metal Jacket                                                        | 1987 |   8.1 | 13863 |          82
+   70 | Being John Malkovich                                                     | 1999 |   8.3 | 13809 |        1485
+   71 | Clerks                                                                   | 1994 |   7.9 | 13803 |         445
+   72 | Wizard of Oz, The                                                        | 1939 |   8.3 | 13444 |        1151
+   73 | Green Mile, The                                                          | 1999 |   8.3 | 13409 |        1040
+   74 | Vita &#232; bella, La                                                    | 1997 |   8.6 | 13403 |         820
+   75 | Austin Powers: International Man of Mystery                              | 1997 |     7 | 13372 |         604
+   76 | Ferris Bueller's Day Off                                                 | 1986 |   7.6 | 13326 |         144
+   77 | Starship Troopers                                                        | 1997 |   6.6 | 13205 |         201
+   78 | Groundhog Day                                                            | 1993 |   7.7 | 13093 |         108
+   79 | Mission: Impossible                                                      | 1996 |   6.4 | 13029 |          31
+   80 | Heat                                                                     | 1995 |   7.7 | 13016 |        1106
+   81 | English Patient, The                                                     | 1996 |   7.1 | 12995 |         621
+   82 | American History X                                                       | 1998 |   8.3 | 12977 |        2663
+   83 | Top Gun                                                                  | 1986 |   6.4 | 12851 |         107
+   84 | Speed                                                                    | 1994 |     7 | 12715 |         421
+   85 | Twister                                                                  | 1996 |   5.9 | 12597 |         421
+   86 | Batman                                                                   | 1989 |   7.1 | 12512 |         148
+   87 | Rear Window                                                              | 1954 |   8.7 | 12484 |          11
+   88 | Eyes Wide Shut                                                           | 1999 |   7.3 | 12455 |          82
+   89 | Brazil                                                                   | 1985 |     8 | 12319 |          59
+   90 | Big Lebowski, The                                                        | 1998 |   7.6 | 12266 |         111
+   91 | True Lies                                                                | 1994 |     7 | 12109 |         198
+   92 | X-Men                                                                    | 2000 |   7.8 | 12093 |         639
+   93 | Full Monty, The                                                          | 1997 |   7.4 | 11852 |        2757
+   94 | North by Northwest                                                       | 1959 |   8.6 | 11588 |          11
+   95 | Chasing Amy                                                              | 1997 |   7.6 | 11563 |         445
+   96 | Hunt for Red October, The                                                | 1990 |   7.5 | 11251 |         196
+   97 | Vertigo                                                                  | 1958 |   8.5 | 11231 |          11
+   98 | Dogma                                                                    | 1999 |   7.6 | 11133 |         445
+   99 | Mission: Impossible II                                                   | 2000 |   6.3 | 11117 |         204
+  100 | Fish Called Wanda, A                                                     | 1988 |   7.7 | 11075 |        2247
+  101 | American Pie                                                             | 1999 |   7.1 | 10908 |        2859
+  102 | Austin Powers: The Spy Who Shagged Me                                    | 1999 |   6.5 | 10891 |         604
+  103 | Indiana Jones and the Temple of Doom                                     | 1984 |   6.9 | 10674 |          18
+  104 | When Harry Met Sally...                                                  | 1989 |   7.6 | 10663 |          37
+  105 | Gone with the Wind                                                       | 1939 |   8.1 | 10628 |        1151
+  106 | Stand by Me                                                              | 1986 |   7.8 | 10579 |          37
+  107 | Batman & Robin                                                           | 1997 |   3.5 | 10577 |         105
+  108 | Ghostbusters                                                             | 1984 |   7.3 | 10543 |         109
+  109 | Dances with Wolves                                                       | 1990 |   7.6 | 10522 |          10
+  110 | Sleepy Hollow                                                            | 1999 |   7.5 | 10514 |         148
+  111 | South Park: Bigger, Longer and Uncut                                     | 1999 |   7.7 | 10471 |         270
+  112 | Three Kings                                                              | 1999 |   7.7 | 10319 |        1070
+  113 | Platoon                                                                  | 1986 |   7.9 | 10272 |          69
+  114 | From Dusk Till Dawn                                                      | 1996 |   6.6 | 10152 |         666
+  115 | Mummy, The                                                               | 1999 |   6.6 | 10125 |        1103
+  116 | Toy Story 2                                                              | 1999 |   8.5 | 10020 |        2043
+  117 | Air Force One                                                            | 1997 |   6.5 |  9941 |         140
+  118 | Unforgiven                                                               | 1992 |   7.9 |  9903 |           2
+  119 | Breakfast Club, The                                                      | 1985 |   7.4 |  9760 |         144
+  120 | Field of Dreams                                                          | 1989 |   7.6 |  9717 |         993
+  121 | To Kill a Mockingbird                                                    | 1962 |   8.5 |  9707 |        2586
+  122 | Untouchables, The                                                        | 1987 |   7.8 |  9592 |          31
+  123 | Graduate, The                                                            | 1967 |   8.1 |  9558 |          47
+  124 | Thin Red Line, The                                                       | 1998 |   7.2 |  9555 |         686
+  125 | Game, The                                                                | 1997 |   7.5 |  9552 |         414
+  126 | Godzilla                                                                 | 1998 |   4.2 |  9464 |         290
+  127 | Boogie Nights                                                            | 1997 |   7.5 |  9458 |        1037
+  128 | Abyss, The                                                               | 1989 |   7.3 |  9434 |         198
+  129 | Romeo + Juliet                                                           | 1996 |   6.6 |  9274 |        1069
+  130 | Total Recall                                                             | 1990 |   7.1 |  9261 |         201
+  131 | Grosse Pointe Blank                                                      | 1997 |   7.4 |  9211 |        2103
+  132 | X Files, The                                                             | 1998 |   6.8 |  9114 |        2673
+  133 | Close Encounters of the Third Kind                                       | 1977 |   7.7 |  9107 |          18
+  134 | Few Good Men, A                                                          | 1992 |   7.4 |  9077 |          37
+  135 | Exorcist, The                                                            | 1973 |   7.9 |  8984 |         264
+  136 | Devil's Advocate, The                                                    | 1997 |     7 |  8983 |         674
+  137 | Scream 2                                                                 | 1997 |   6.2 |  8970 |         133
+  138 | Pleasantville                                                            | 1998 |   7.5 |  8969 |        2118
+  139 | Deep Impact                                                              | 1998 |     6 |  8950 |         589
+  140 | Con Air                                                                  | 1997 |   6.3 |  8917 |        1114
+  141 | Grease                                                                   | 1978 |   6.6 |  8857 |         383
+  142 | Natural Born Killers                                                     | 1994 |   6.3 |  8744 |          69
+  143 | Sling Blade                                                              | 1996 |   8.1 |  8740 |         298
+  144 | True Romance                                                             | 1993 |   7.5 |  8657 |         107
+  145 | GoldenEye                                                                | 1995 |   6.7 |  8484 |        2539
+  146 | Bug's Life, A                                                            | 1998 |   7.7 |  8481 |        1044
+  147 | Airplane!                                                                | 1980 |   7.6 |  8431 |         189
+  148 | Back to the Future Part II                                               | 1989 |   6.6 |  8411 |          67
+  149 | Deer Hunter, The                                                         | 1978 |   8.1 |  8393 |        2645
+  150 | Boot, Das                                                                | 1981 |   8.5 |  8392 |         140
+  151 | Gattaca                                                                  | 1997 |   7.4 |  8388 |        2020
+  152 | Alien: Resurrection                                                      | 1997 |     6 |  8363 |        2235
+  153 | Beauty and the Beast                                                     | 1991 |   7.8 |  8306 |        2126
+  154 | Chinatown                                                                | 1974 |   8.4 |  8280 |          90
+  155 | Casino                                                                   | 1995 |   7.6 |  8247 |          78
+  156 | World Is Not Enough, The                                                 | 1999 |   6.6 |  8226 |         199
+  157 | Raising Arizona                                                          | 1987 |   7.6 |  8185 |         111
+  158 | Army of Darkness                                                         | 1993 |   7.2 |  8165 |         141
+  159 | 12 Angry Men                                                             | 1957 |   8.6 |  8158 |          80
+  160 | Batman Forever                                                           | 1995 |   5.3 |  8130 |         105
+  161 | Sting, The                                                               | 1973 |   8.2 |  8108 |         276
+  162 | Glory                                                                    | 1989 |   8.1 |  8079 |         382
+  163 | Raging Bull                                                              | 1980 |   8.4 |  8029 |          78
+  164 | Dark City                                                                | 1998 |   7.5 |  8024 |        1047
+  165 | Wallace & Gromit: The Wrong Trousers                                     | 1993 |   8.5 |  8024 |         572
+  166 | Beetlejuice                                                              | 1988 |   6.9 |  8019 |         148
+  167 | Highlander                                                               | 1986 |   7.1 |  8013 |         577
+  168 | Pretty Woman                                                             | 1990 |   6.5 |  7993 |         129
+  169 | Notting Hill                                                             | 1999 |   7.3 |  7977 |        2760
+  170 | Go                                                                       | 1999 |   7.8 |  7935 |        1163
+  171 | Sound of Music, The                                                      | 1965 |   7.6 |  7913 |         286
+  172 | Crow, The                                                                | 1994 |   6.9 |  7869 |        1047
+  173 | Patriot, The                                                             | 2000 |   7.3 |  7826 |         290
+  174 | Enemy of the State                                                       | 1998 |   7.2 |  7817 |         107
+  175 | Babe                                                                     | 1995 |   7.6 |  7811 |        2353
+  176 | Talented Mr. Ripley, The                                                 | 1999 |   7.2 |  7797 |         621
+  177 | Who Framed Roger Rabbit                                                  | 1988 |   7.3 |  7789 |          67
+  178 | Tomorrow Never Dies                                                      | 1997 |   6.5 |  7683 |         407
+  179 | Dead Man Walking                                                         | 1995 |   7.7 |  7636 |          25
+  180 | Out of Sight                                                             | 1998 |   7.6 |  7555 |         689
+  181 | Sleepless in Seattle                                                     | 1993 |   6.8 |  7551 |        1091
+  182 | Die Hard: With a Vengeance                                               | 1995 |   6.8 |  7544 |         196
+  183 | Aladdin                                                                  | 1992 |   7.5 |  7537 |        1152
+  184 | Dumb & Dumber                                                            | 1994 |   6.2 |  7444 |        2825
+  185 | Wedding Singer, The                                                      | 1998 |   6.8 |  7431 |        1054
+  186 | Insider, The                                                             | 1999 |   8.2 |  7429 |        1106
+  187 | Negotiator, The                                                          | 1998 |   7.2 |  7420 |        1035
+  188 | Perfect Storm, The                                                       | 2000 |   6.6 |  7414 |         140
+  189 | Bridge on the River Kwai, The                                            | 1957 |   8.4 |  7395 |        1080
+  190 | Four Weddings and a Funeral                                              | 1994 |   7.2 |  7394 |         585
+  191 | Ransom                                                                   | 1996 |   6.7 |  7377 |          21
+  192 | Back to the Future Part III                                              | 1990 |   6.4 |  7337 |          67
+  193 | Rocky Horror Picture Show, The                                           | 1975 |   6.5 |  7288 |        2325
+  194 | Rushmore                                                                 | 1998 |   7.6 |  7269 |        1034
+  195 | Spaceballs                                                               | 1987 |   6.4 |  7225 |          29
+  196 | Analyze This                                                             | 1999 |   6.8 |  7224 |         108
+  197 | Die Hard 2                                                               | 1990 |   6.6 |  7197 |         210
+  198 | Young Frankenstein                                                       | 1974 |     8 |  7186 |          29
+  199 | Goldfinger                                                               | 1964 |   7.7 |  7180 |         636
+  200 | Clueless                                                                 | 1995 |   6.7 |  7159 |         403
+  201 | Thelma & Louise                                                          | 1991 |   7.2 |  7153 |         110
+  202 | Ronin                                                                    | 1998 |     7 |  7144 |         676
+  203 | Predator                                                                 | 1987 |   7.1 |  7136 |         196
+  204 | Cruel Intentions                                                         | 1999 |   6.7 |  7081 |        2765
+  205 | Batman Returns                                                           | 1992 |   6.2 |  7063 |         148
+  206 | Swingers                                                                 | 1996 |   7.5 |  7038 |        1163
+  207 | Basic Instinct                                                           | 1992 |   6.5 |  7011 |         201
+  208 | Annie Hall                                                               | 1977 |   8.2 |  6989 |           1
+  209 | Star Trek: The Wrath of Khan                                             | 1982 |   7.4 |  6969 |         571
+  210 | Waterworld                                                               | 1995 |   5.3 |  6934 |         378
+  211 | Ben-Hur                                                                  | 1959 |   8.1 |  6927 |         620
+  212 | Animal House                                                             | 1978 |   7.4 |  6925 |          62
+  213 | Blade                                                                    | 1998 |   6.7 |  6885 |        2861
+  214 | Dune                                                                     | 1984 |   6.1 |  6884 |         139
+  215 | Galaxy Quest                                                             | 1999 |   7.5 |  6841 |        1101
+  216 | Shine                                                                    | 1996 |   7.5 |  6837 |        1135
+  217 | Simple Plan, A                                                           | 1998 |   7.7 |  6763 |         141
+  218 | Ghost                                                                    | 1990 |   6.7 |  6741 |        1116
+  219 | Big                                                                      | 1988 |   7.2 |  6741 |         361
+  220 | Edward Scissorhands                                                      | 1990 |   7.3 |  6697 |         148
+  221 | Christmas Story, A                                                       | 1983 |   8.1 |  6693 |         579
+  222 | Singin' in the Rain                                                      | 1952 |   8.5 |  6662 |         428
+  223 | Time to Kill, A                                                          | 1996 |   6.9 |  6658 |         105
+  224 | You've Got Mail                                                          | 1998 |   6.4 |  6654 |        1091
+  225 | Butch Cassidy and the Sundance Kid                                       | 1969 |   8.1 |  6637 |         276
+  226 | Halloween                                                                | 1978 |   7.5 |  6621 |          23
+  227 | Stargate                                                                 | 1994 |   6.2 |  6604 |         290
+  228 | Ed Wood                                                                  | 1994 |   7.8 |  6587 |         148
+  229 | Wild Things                                                              | 1998 |   6.8 |  6569 |         974
+  230 | Elizabeth                                                                | 1998 |   7.7 |  6562 |        2755
+  231 | Dracula                                                                  | 1992 |   6.9 |  6551 |          28
+  232 | My Best Friend's Wedding                                                 | 1997 |   6.5 |  6543 |        1169
+  233 | Robin Hood: Prince of Thieves                                            | 1991 |   6.3 |  6540 |         378
+  234 | High Fidelity                                                            | 2000 |   7.9 |  6535 |         292
+  235 | Chicken Run                                                              | 2000 |     8 |  6534 |        2802
+  236 | Sense and Sensibility                                                    | 1995 |   7.7 |  6476 |         273
+  237 | Some Like It Hot                                                         | 1959 |   8.4 |  6445 |          79
+  238 | Much Ado About Nothing                                                   | 1993 |   7.5 |  6443 |          48
+  239 | Home Alone                                                               | 1990 |   6.1 |  6430 |         156
+  240 | Ace Ventura: Pet Detective                                               | 1994 |   6.1 |  6414 |         586
+  241 | Shichinin no samurai                                                     | 1954 |     9 |  6357 |         208
+  242 | While You Were Sleeping                                                  | 1995 |   6.6 |  6353 |         411
+  243 | Witness                                                                  | 1985 |   7.6 |  6332 |          86
+  244 | I Know What You Did Last Summer                                          | 1997 |   5.3 |  6305 |        2420
+  245 | Alien&#179;                                                              | 1992 |   5.8 |  6293 |         414
+  246 | Player, The                                                              | 1992 |   7.8 |  6278 |         155
+  247 | Wag the Dog                                                              | 1997 |   6.9 |  6244 |          38
+  248 | Tombstone                                                                | 1993 |   7.2 |  6171 |         631
+  249 | Buono, il brutto, il cattivo, Il                                         | 1966 |   8.5 |  6161 |         268
+  250 | Erin Brockovich                                                          | 2000 |   7.6 |  6152 |         689
+  251 | End of Days                                                              | 1999 |   5.5 |  6095 |         103
+  252 | Star Trek: Insurrection                                                  | 1998 |   6.4 |  6088 |         500
+  253 | Sleepers                                                                 | 1996 |   6.8 |  6052 |          38
+  254 | Antz                                                                     | 1998 |   7.2 |  6045 |        2072
+  255 | City of Angels                                                           | 1998 |   6.3 |  6022 |        1139
+  256 | Event Horizon                                                            | 1997 |   5.4 |  5993 |         653
+  257 | Birds, The                                                               | 1963 |   7.8 |  5969 |          11
+  258 | Superman                                                                 | 1978 |   6.9 |  5958 |         209
+  259 | Mrs. Doubtfire                                                           | 1993 |   6.4 |  5956 |         156
+  260 | Entrapment                                                               | 1999 |   6.2 |  5940 |         669
+  261 | Rocky                                                                    | 1976 |   7.6 |  5933 |         683
+  262 | Goonies, The                                                             | 1985 |   6.7 |  5908 |         209
+  263 | Blazing Saddles                                                          | 1974 |   7.6 |  5876 |          29
+  264 | This Is Spinal Tap                                                       | 1984 |   7.9 |  5854 |          37
+  265 | Hook                                                                     | 1991 |   5.6 |  5852 |          18
+  266 | Donnie Brasco                                                            | 1997 |   7.5 |  5832 |         585
+  267 | What's Eating Gilbert Grape                                              | 1993 |   7.5 |  5808 |         387
+  268 | Scent of a Woman                                                         | 1992 |   7.2 |  5799 |         595
+  269 | Philadelphia                                                             | 1993 |   7.3 |  5790 |         281
+  270 | Crimson Tide                                                             | 1995 |   7.1 |  5784 |         107
+  271 | Great Escape, The                                                        | 1963 |   8.2 |  5783 |        2473
+  272 | Wayne's World                                                            | 1992 |   6.6 |  5756 |        1021
+  273 | Broken Arrow                                                             | 1996 |   5.8 |  5751 |         204
+  274 | 8MM                                                                      | 1999 |     6 |  5744 |         105
+  275 | Beverly Hills Cop                                                        | 1984 |     7 |  5717 |         595
+  276 | Excalibur                                                                | 1981 |   7.4 |  5716 |         293
+  277 | Election                                                                 | 1999 |   7.7 |  5713 |        2199
+  278 | Unbreakable                                                              | 2000 |   7.5 |  5701 |         966
+  279 | Get Shorty                                                               | 1995 |     7 |  5693 |         422
+  280 | Star Trek: Generations                                                   | 1994 |     6 |  5674 |        2282
+  281 | Dangerous Liaisons                                                       | 1988 |   7.7 |  5651 |         292
+  282 | Dazed and Confused                                                       | 1993 |   7.1 |  5643 |         205
+  283 | Gandhi                                                                   | 1982 |   7.8 |  5643 |         235
+  284 | Blue Velvet                                                              | 1986 |   7.6 |  5628 |         139
+  285 | Sneakers                                                                 | 1992 |     7 |  5627 |         993
+  286 | RoboCop                                                                  | 1987 |   6.9 |  5596 |         201
+  287 | Cider House Rules, The                                                   | 1999 |   7.7 |  5588 |         387
+  288 | Third Man, The                                                           | 1949 |   8.6 |  5576 |        1003
+  289 | Payback                                                                  | 1999 |     7 |  5566 |        2427
+  290 | Fantasia                                                                 | 1940 |   7.9 |  5552 |        1167
+  291 | Happy Gilmore                                                            | 1996 |   6.6 |  5539 |         330
+  292 | Piano, The                                                               | 1993 |   7.3 |  5526 |         575
+  293 | Saint, The                                                               | 1997 |   5.7 |  5522 |         212
+  294 | Desperado                                                                | 1995 |   6.6 |  5510 |         666
+  295 | Eraser                                                                   | 1996 |     6 |  5504 |        1122
+  296 | Strange Days                                                             | 1995 |   6.9 |  5489 |         641
+  297 | Good Morning, Vietnam                                                    | 1987 |     7 |  5485 |          38
+  298 | In the Line of Fire                                                      | 1993 |   7.3 |  5481 |         140
+  299 | African Queen, The                                                       | 1951 |   8.2 |  5468 |         312
+  300 | Phenomenon                                                               | 1996 |   6.4 |  5456 |         411
+  301 | Thomas Crown Affair, The                                                 | 1999 |   6.8 |  5444 |         196
+  302 | Fisher King, The                                                         | 1991 |   7.3 |  5441 |          59
+  303 | Central do Brasil                                                        | 1998 |   8.1 |  5429 |        2560
+  304 | Arlington Road                                                           | 1999 |   7.2 |  5422 |        1897
+  305 | Mission to Mars                                                          | 2000 |   4.8 |  5420 |          31
+  306 | Willy Wonka & the Chocolate Factory                                      | 1971 |   7.4 |  5392 |        2740
+  307 | Fried Green Tomatoes                                                     | 1991 |   7.3 |  5388 |         691
+  308 | Deep Blue Sea                                                            | 1999 |     6 |  5336 |         210
+  309 | Heathers                                                                 | 1989 |   7.4 |  5327 |         371
+  310 | Wild Wild West                                                           | 1999 |     4 |  5323 |         422
+  311 | Conspiracy Theory                                                        | 1997 |   6.5 |  5322 |         209
+  312 | Cape Fear                                                                | 1991 |     7 |  5319 |          78
+  313 | Hamlet                                                                   | 1996 |   7.7 |  5317 |          48
+  314 | Gremlins                                                                 | 1984 |   6.6 |  5297 |         150
+  315 | Tootsie                                                                  | 1982 |   7.5 |  5291 |          92
+  316 | Waterboy, The                                                            | 1998 |   5.5 |  5272 |        1054
+  317 | Scream 3                                                                 | 2000 |   6.1 |  5268 |         133
+  318 | Net, The                                                                 | 1995 |   5.6 |  5263 |        1172
+  319 | Firm, The                                                                | 1993 |   6.5 |  5255 |          92
+  320 | That Thing You Do!                                                       | 1996 |   6.6 |  5253 |           8
+  321 | Rush Hour                                                                | 1998 |   6.7 |  5246 |        1094
+  322 | Gone in Sixty Seconds                                                    | 2000 |     6 |  5234 |        2362
+  323 | Nightmare Before Christmas, The                                          | 1993 |   7.5 |  5226 |        1036
+  324 | Nuovo cinema Paradiso                                                    | 1988 |   8.2 |  5178 |        2142
+  325 | Bound                                                                    | 1996 |   7.5 |  5127 |        2024
+  326 | West Side Story                                                          | 1961 |   7.7 |  5101 |        2295
+  327 | Quiz Show                                                                | 1994 |   7.4 |  5094 |          36
+  328 | WarGames                                                                 | 1983 |   6.8 |  5074 |          66
+  329 | Scary Movie                                                              | 2000 |   5.8 |  5059 |        1361
+  330 | In & Out                                                                 | 1997 |   6.2 |  5055 |         123
+  331 | Wo hu zang long                                                          | 2000 |     9 |  5016 |         273
+  332 | Spartacus                                                                | 1960 |     8 |  5006 |          82
+  333 | Right Stuff, The                                                         | 1983 |     8 |  5006 |         288
+  334 | Outbreak                                                                 | 1995 |   6.5 |  4999 |         140
+  335 | Evil Dead II                                                             | 1987 |   7.4 |  4994 |         141
+  336 | Sphere                                                                   | 1998 |   5.1 |  4991 |          38
+  337 | Caddyshack                                                               | 1980 |   6.8 |  4989 |         108
+  338 | Cable Guy, The                                                           | 1996 |   5.4 |  4985 |         242
+  339 | American President, The                                                  | 1995 |     7 |  4975 |          37
+  340 | My Fair Lady                                                             | 1964 |   7.8 |  4969 |         628
+  341 | Crocodile Dundee                                                         | 1986 |   6.5 |  4962 |        2823
+  342 | Once Upon a Time in America                                              | 1984 |     8 |  4959 |         268
+  343 | Backdraft                                                                | 1991 |   6.5 |  4949 |          21
+  344 | Clear and Present Danger                                                 | 1994 |   6.9 |  4943 |         212
+  345 | Ghostbusters II                                                          | 1989 |   5.3 |  4919 |         109
+  346 | U-571                                                                    | 2000 |   6.9 |  4917 |        1120
+  347 | Birdcage, The                                                            | 1996 |   6.5 |  4902 |          47
+  348 | Sliding Doors                                                            | 1998 |     7 |  4886 |        1940
+  349 | Star Trek IV: The Voyage Home                                            | 1986 |     7 |  4879 |         193
+  350 | Scarface                                                                 | 1983 |   7.4 |  4877 |          31
+  351 | People vs. Larry Flynt, The                                              | 1996 |   7.2 |  4873 |         408
+  352 | Mr. Holland's Opus                                                       | 1995 |     7 |  4865 |         149
+  353 | Haunting, The                                                            | 1999 |   4.8 |  4835 |         421
+  354 | Bone Collector, The                                                      | 1999 |   6.2 |  4810 |         212
+  355 | In the Name of the Father                                                | 1993 |   7.7 |  4793 |         581
+  356 | Patriot Games                                                            | 1992 |   6.8 |  4774 |         212
+  357 | Dirty Dancing                                                            | 1987 |   5.8 |  4769 |         662
+  358 | Ever After                                                               | 1998 |   7.2 |  4764 |         654
+  359 | Bowfinger                                                                | 1999 |   6.8 |  4759 |         123
+  360 | Thing, The                                                               | 1982 |   7.5 |  4751 |          23
+  361 | Hudsucker Proxy, The                                                     | 1994 |   7.3 |  4743 |         111
+  362 | Planet of the Apes                                                       | 1968 |   7.6 |  4742 |         405
+  363 | Elephant Man, The                                                        | 1980 |     8 |  4728 |         139
+  364 | Any Given Sunday                                                         | 1999 |   6.7 |  4722 |          69
+  365 | Ice Storm, The                                                           | 1997 |   7.5 |  4718 |         273
+  366 | Nikita                                                                   | 1990 |   7.6 |  4714 |         389
+  367 | Naked Gun: From the Files of Police Squad!, The                          | 1988 |   7.3 |  4707 |         573
+  368 | What Dreams May Come                                                     | 1998 |   6.2 |  4686 |        2500
+  369 | Demolition Man                                                           | 1993 |   6.1 |  4682 |        1182
+  370 | Showgirls                                                                | 1995 |   3.5 |  4672 |         201
+  371 | American Graffiti                                                        | 1973 |   7.7 |  4669 |         360
+  372 | Awakenings                                                               | 1990 |   7.4 |  4662 |         361
+  373 | Fear and Loathing in Las Vegas                                           | 1998 |   6.5 |  4658 |          59
+  374 | Breaking the Waves                                                       | 1996 |   7.7 |  4645 |         615
+  375 | Private Parts                                                            | 1997 |   6.6 |  4644 |         425
+  376 | Patton                                                                   | 1970 |   8.1 |  4637 |         405
+  377 | Cool Hand Luke                                                           | 1967 |   8.1 |  4635 |        1029
+  378 | Postino, Il                                                              | 1994 |   7.7 |  4630 |        1154
+  379 | Whole Nine Yards, The                                                    | 2000 |   6.7 |  4626 |         262
+  380 | Avengers, The                                                            | 1998 |   3.4 |  4623 |         412
+  381 | Heavenly Creatures                                                       | 1994 |   7.8 |  4592 |         326
+  382 | Patch Adams                                                              | 1998 |   6.2 |  4569 |         586
+  383 | Wallace & Gromit: A Close Shave                                          | 1995 |   8.2 |  4561 |         572
+  384 | 10 Things I Hate About You                                               | 1999 |   7.1 |  4539 |        2129
+  385 | Snake Eyes                                                               | 1998 |   5.7 |  4536 |          31
+  386 | Remains of the Day, The                                                  | 1993 |   7.8 |  4528 |         576
+  387 | October Sky                                                              | 1999 |     8 |  4510 |         424
+  388 | Addams Family, The                                                       | 1991 |   6.4 |  4499 |         422
+  389 | American Psycho                                                          | 2000 |     7 |  4487 |        2531
+  390 | Breakfast at Tiffany's                                                   | 1961 |   7.7 |  4483 |          65
+  391 | Boys Don't Cry                                                           | 1999 |     8 |  4481 |        2172
+  392 | Miller's Crossing                                                        | 1990 |   7.9 |  4453 |         111
+  393 | Name der Rose, Der                                                       | 1986 |   7.5 |  4453 |        1131
+  394 | Dragonheart                                                              | 1996 |   6.2 |  4432 |         376
+  395 | Bringing Out the Dead                                                    | 1999 |     7 |  4431 |          78
+  396 | Deliverance                                                              | 1972 |   7.8 |  4418 |         293
+  397 | Delicatessen                                                             | 1991 |   7.7 |  4394 |         995
+  398 | Shallow Grave                                                            | 1994 |   7.4 |  4387 |         597
+  399 | Charlie's Angels                                                         | 2000 |   6.9 |  4374 |        2358
+  400 | All the President's Men                                                  | 1976 |   7.8 |  4361 |         275
+  401 | Mulan                                                                    | 1998 |   7.4 |  4360 |        2651
+  402 | Star Trek: The Motion Picture                                            | 1979 |   5.5 |  4358 |         286
+  403 | Conan the Barbarian                                                      | 1982 |   6.2 |  4356 |         693
+  404 | Akira                                                                    | 1988 |   7.4 |  4321 |        2045
+  405 | Double Jeopardy                                                          | 1999 |     6 |  4321 |         685
+  406 | Twins                                                                    | 1988 |     6 |  4318 |         109
+  407 | Speed 2: Cruise Control                                                  | 1997 |   3.2 |  4313 |         421
+  408 | Dave                                                                     | 1993 |   7.1 |  4305 |         109
+  409 | Rebel Without a Cause                                                    | 1955 |   7.8 |  4296 |        1706
+  410 | Star Trek VI: The Undiscovered Country                                   | 1991 |   6.7 |  4287 |         571
+  411 | Faculty, The                                                             | 1998 |   6.3 |  4287 |         666
+  412 | Pi                                                                       | 1998 |   7.5 |  4283 |        1136
+  413 | Big Daddy                                                                | 1999 |   6.1 |  4275 |         330
+  414 | Say Anything...                                                          | 1989 |   7.5 |  4257 |         391
+  415 | Ace Ventura: When Nature Calls                        
