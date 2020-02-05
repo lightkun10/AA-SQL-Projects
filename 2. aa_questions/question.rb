@@ -20,15 +20,15 @@ class Question
     end
 
     def self.find_by_author_id(author_id)
-        questions_data = QuestionsDatabase.instance.execute(<<-SQL, author_id)
+        questions_data = QuestionsDatabase.instance.execute(<<-SQL, author_id: author_id)
             SELECT
                 questions.*
             FROM
                 questions
             WHERE
-                questions.author_id = ?
+                questions.author_id = :author_id
         SQL
 
-        questions_data
+        questions_data.map { |question_data| Question.new(question_data) }
     end
 end
