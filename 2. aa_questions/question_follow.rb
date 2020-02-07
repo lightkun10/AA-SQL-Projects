@@ -3,6 +3,10 @@ require_relative 'user'
 require_relative 'question'
 
 class QuestionFollow
+    def self.all
+        data = QuestionsDatabase.instance.execute("SELECT * FROM question_follows")
+        data
+    end
 
     def self.followers_for_question_id(question_id)
        # Returns an array of User objects
@@ -38,8 +42,29 @@ class QuestionFollow
                 question_follows.user_id = :user_id
         SQL
 
+        return nil unless questions_data.length > 0
         questions_data.map { |question_data| Question.new(question_data) }
     end
 
+    def self.most_followed_questions(n)
+        # Fetches the n most followed questions.
+        questions_data = QuestionsDatabase.instance.execute(<<-SQL, limit: n)
+            SELECT 
+                questions.*
+            FROM
+                questions
+            JOIN
+                question_follows
+            ON
+                question_follows.question_id = questions.id
+            GROUP BY
+                questions.id
+            ORDER BY
+                COUNT(*) DESC
+            LIMIT
+                :limit
+        SQL
 
+        questions_data.map { |question_data| Question.new(question_data) }
+    end
 end
