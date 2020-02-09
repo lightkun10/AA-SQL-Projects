@@ -6,3 +6,5 @@ Contains project and homework files I worked on the 'SQL' section of App Academy
 
 ### Section 2 - Object Relational Model
 * AA Questions
+* Association Exercise
+* URL Shortener
