@@ -31,6 +31,7 @@ class ShortenedUrl < ApplicationRecord
   })
 
   has_many(:visitors, {
+    -> { distinct },
     through: :visits,
     source: :visitor
   })
