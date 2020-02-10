@@ -59,6 +59,33 @@ class ShortenedUrl < ApplicationRecord
   end
 
   def num_clicks
+    # count the number of clicks on a ShortenedUrl
+    visits.count
   end
+
+  def num_uniques
+    # determine the number of distinct users who 
+    # have clicked a link.
+  end
+
+=begin
+The sql for '#num_uniques'
+will look like this:
+=====================================
+  SELECT
+    COUNT(DISTINCT user_id)
+  FROM
+    visits
+  WHERE
+    visits.shortened_url_id = ?
+======================================
+=end
+
+def num_recent_uniques
+  # should only collect unique clicks in a recent time period 
+  # (say, 10.minutes.ago)
+end
+  
+
 
 end
