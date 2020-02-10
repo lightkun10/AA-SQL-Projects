@@ -18,14 +18,21 @@ class ShortenedUrl < ApplicationRecord
   validates :short_url, :long_url, :submitter_id, presence: true
   validates :short_url, uniqueness: true
 
-  # Remember, belongs_to is just a method where the first argument is
-  # the name of the association, and the second argument is an options
-  # hash.
-
   belongs_to(:submitter, {
-    primary_key: :id,
+    foreign_key: :submitter_id,
     class_name: 'User',
-    foreign_key: :submitter_id
+    primary_key: :id
+  })
+
+  has_many(:visits, {
+    foreign_key: :shortened_url_id,
+    class_name: 'Visit',
+    primary_key: :id
+  })
+
+  has_many(:visitors, {
+    through: :visits,
+    source: :visitor
   })
 
   def self.create_for_user_and_long_url(user, long_url)
@@ -51,5 +58,7 @@ class ShortenedUrl < ApplicationRecord
     end
   end
 
+  def num_clicks
+  end
 
 end
