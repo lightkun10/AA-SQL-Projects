@@ -10,13 +10,32 @@
 #  updated_at   :datetime         not null
 #
 
-
 # 'validates' for normal validation
 # 'validate' for custom validation methods
+
 
 class ShortenedUrl < ApplicationRecord
   validates :short_url, :long_url, :submitter_id, presence: true
   validates :short_url, uniqueness: true
+
+  # Remember, belongs_to is just a method where the first argument is
+  # the name of the association, and the second argument is an options
+  # hash.
+
+  belongs_to(:submitter, {
+    primary_key: :id,
+    class_name: 'User',
+    foreign_key: :submitter_id
+  })
+
+  def self.create_for_user_and_long_url(user, long_url)
+    # User.create_for_user_and_long_url(user_pandu, "kajsajskasjka.com")
+    ShortenedUrl.create!(
+      submitter_id: user.id,
+      long_url: long_url,
+      short_url: ShortenedUrl.random_code
+    )
+  end
 
   def self.random_code
     loop do
