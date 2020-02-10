@@ -66,6 +66,7 @@ class ShortenedUrl < ApplicationRecord
   def num_uniques
     # determine the number of distinct users who 
     # have clicked a link.
+    visits.select('user_id').distinct.count
   end
 
 =begin
