@@ -85,6 +85,11 @@ will look like this:
 def num_recent_uniques
   # should only collect unique clicks in a recent time period 
   # (say, 10.minutes.ago)
+  visits
+    .select('user_id')
+    .where('created_at > ?', 10.minutes.ago)
+    .distinct
+    .count
 end
   
 
