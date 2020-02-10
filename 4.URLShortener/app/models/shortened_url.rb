@@ -30,11 +30,12 @@ class ShortenedUrl < ApplicationRecord
     primary_key: :id
   })
 
-  has_many(:visitors, {
+  # TA: Again, the association would return the same user multiple times. You
+  # may uncomment the lambda below to eliminate duplicates in the result set.
+  has_many :visitors,
     -> { distinct },
     through: :visits,
     source: :visitor
-  })
 
   def self.create_for_user_and_long_url(user, long_url)
     # User.create_for_user_and_long_url(user_pandu, "kajsajskasjka.com")
