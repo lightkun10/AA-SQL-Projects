@@ -12,8 +12,21 @@ class User < ApplicationRecord
     validates :email, presence: true, uniqueness: true
 
     has_many(:submitted_urls, {
-        class_name: 'ShortenedUrl',
         foreign_key: :submitter_id,
+        class_name: 'ShortenedUrl',
         primary_key: :id
     })
+
+    has_many(:visits, {
+        foreign_key: :user_id,
+        class_name: 'Visit',
+        primary_key: :id
+    })
+
+    has_many(:visited_urls, {
+        through: :visits,
+        source: :shortened_url
+    })
+
+
 end
