@@ -32,4 +32,13 @@ ActiveRecord::Schema.define(version: 2020_02_09_231307) do
     t.index ["email"], name: "index_users_on_email", unique: true
   end
 
+  create_table "visits", force: :cascade do |t|
+    t.integer "user_id", null: false
+    t.integer "shortened_url_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["shortened_url_id"], name: "index_visits_on_shortened_url_id"
+    t.index ["user_id"], name: "index_visits_on_user_id"
+  end
+
 end
