@@ -18,10 +18,6 @@ class ShortenedUrl < ApplicationRecord
   validates :short_url, :long_url, :submitter_id, presence: true
   validates :short_url, uniqueness: true
 
-  has_many(:, {
-    foreign_key: shortened
-  })
-
   belongs_to(:submitter, {
     foreign_key: :submitter_id,
     class_name: 'User',
