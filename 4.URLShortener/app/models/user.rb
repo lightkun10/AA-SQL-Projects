@@ -27,6 +27,4 @@ class User < ApplicationRecord
         -> { distinct },
         through: :visits,
         source: :shortened_url
-
-
 end
