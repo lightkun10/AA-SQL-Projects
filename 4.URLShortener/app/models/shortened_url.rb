@@ -23,6 +23,18 @@ class ShortenedUrl < ApplicationRecord
     class_name: 'User',
     primary_key: :id
   })
+  
+  has_many(:taggings, {
+    foreign_key: :shortened_url_id,
+    class_name: 'Tagging',
+    primary_key: :id
+  })
+
+  # many-to-many with each tag topic
+  has_many(:tag_topics, {
+    through: :taggings,
+    source: :tag_topic
+  })
 
   has_many(:visits, {
     foreign_key: :shortened_url_id,

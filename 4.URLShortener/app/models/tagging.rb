@@ -11,7 +11,7 @@
 
 class Tagging < ApplicationRecord
   # one url's tag determined by the tag(s)
-  validates :shortened_url, :tag_topic, presence: true
+  validates :tag_topic, :shortened_url, presence: true
   validates :shortened_url_id, uniqueness: { scope: :tag_topic_id }
 
   belongs_to :tag_topic,
