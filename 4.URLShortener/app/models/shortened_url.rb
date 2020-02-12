@@ -110,5 +110,25 @@ will look like this:
       .distinct
       .count
   end
+
+  def no_spamming
+    # Now we're going to write a series of custom validations 
+    # to manage how our users submit URLs to our application. 
+
+    # First, we're going to prevent users from submitting more 
+    # than 5 URLs in a single minute. Then we're going to monetize 
+    # our app by limiting the number of total URLs non-premium users 
+    # can submit to 5.
+
+    # let's try to prevent a user submit more than 2 urls
+    last_minute = ShortenedUrl
+      .where('created_at > ?', 1.minute.ago)
+      .where(submitter_id: submitter_id)
+      .length
+
+    if last_minute >= 5
+      errors[:maximum] << "of five short urls per minute"
+    end
+  end
   
 end
