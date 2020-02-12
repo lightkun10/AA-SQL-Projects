@@ -17,6 +17,7 @@
 class ShortenedUrl < ApplicationRecord
   validates :short_url, :long_url, :submitter_id, presence: true
   validates :short_url, uniqueness: true
+  validate :no_spamming, :nonpremium_max
 
   belongs_to(:submitter, {
     foreign_key: :submitter_id,
@@ -112,22 +113,29 @@ will look like this:
   end
 
   def no_spamming
-    # Now we're going to write a series of custom validations 
-    # to manage how our users submit URLs to our application. 
-
-    # First, we're going to prevent users from submitting more 
-    # than 5 URLs in a single minute. Then we're going to monetize 
-    # our app by limiting the number of total URLs non-premium users 
-    # can submit to 5.
-
-    # let's try to prevent a user submit more than 2 urls
     last_minute = ShortenedUrl
-      .where('created_at > ?', 1.minute.ago)
+      .where('created_at >= ?', 1.minute.ago)
       .where(submitter_id: submitter_id)
       .length
 
     if last_minute >= 5
       errors[:maximum] << "of five short urls per minute"
+    end
+  end
+
+  def nonpremium_max
+    # let pass user with premium
+    if User.find(self.submitter_id).premium
+      return
+    end
+
+    # don't allow nonpremium user to post more than 5 urls
+    # get the user's submitted url total
+    number_of_urls = 
+      ShortenedUrl.where(submitter_id: submitter_id).length
+
+    if number_of_urls >= 5
+      errors[:only] << "premium users can submit more than 5 shortened urls"
     end
   end
   
